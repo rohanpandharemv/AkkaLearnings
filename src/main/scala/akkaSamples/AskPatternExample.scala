@@ -6,6 +6,9 @@ import akka.util._
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/actors.html#ask-send-and-receive-future
+// Youtube: https://www.youtube.com/watch?v=pW_q315FChc
+
 /**
  * Created by rohanp on 9/27/17.
  */

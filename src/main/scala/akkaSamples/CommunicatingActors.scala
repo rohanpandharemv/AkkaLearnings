@@ -2,6 +2,9 @@ package akkaSamples
 
 import akka.actor.{Props, ActorSystem, ActorRef, Actor}
 
+// Docs : https://doc.akka.io/docs/akka/current/scala/actors.html#send-messages
+// Youtube : https://www.youtube.com/watch?v=v3qiXW3HyGI
+
 /**
  * Created by rohanp on 9/24/17.
  */

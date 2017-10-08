@@ -3,6 +3,8 @@ package akkaSamples
 import akka.actor.SupervisorStrategy.{Restart, Stop, Resume}
 import akka.actor.{ActorSystem, Props, Actor, OneForOneStrategy}
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/fault-tolerance.html#default-supervisor-strategy
+// Youtube: https://www.youtube.com/watch?v=zMZK1IZArKY
 
 /**
  * Created by rohanp on 10/7/17.

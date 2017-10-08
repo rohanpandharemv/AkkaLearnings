@@ -2,6 +2,9 @@ package akkaSamples
 
 import akka.actor.{ActorSystem, Props,  Actor}
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/general/addressing.html#summary-actorof-vs-actorselection
+// Youtube: https://www.youtube.com/watch?v=588vyEaknog
+
 /**
  * Created by rohanp on 10/4/17.
  */

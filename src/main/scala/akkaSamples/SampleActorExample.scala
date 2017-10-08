@@ -2,6 +2,9 @@ package akkaSamples
 
 import akka.actor.{Props, ActorSystem, Actor}
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/actors.html#creating-actors-with-props
+// Youtube: https://www.youtube.com/watch?v=ZNaeMf7X6xU
+
 /**
  * Created by rohanp on 9/24/17.
  */

@@ -2,6 +2,9 @@ package akkaSamples
 
 import akka.actor.{ActorRef, Props, ActorSystem, Actor}
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/general/addressing.html#querying-the-logical-actor-hierarchy
+// Youtube: https://www.youtube.com/watch?v=eEuAM7SJcAE
+
 /**
  * Created by rohanp on 9/27/17.
  */

@@ -3,6 +3,9 @@ package akkaSamples
 import akka.actor.{Props, ActorSystem, Actor}
 import scala.concurrent.duration._
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/scheduler.html#scheduler
+// Youtube: https://www.youtube.com/watch?v=RGDc1waXX_o
+
 /**
  * Created by rohanp on 10/8/17.
  */

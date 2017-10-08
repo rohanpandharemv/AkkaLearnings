@@ -4,6 +4,9 @@ import akka.actor.SupervisorStrategy.{Restart, Resume}
 import akka.actor.{ActorSystem, OneForOneStrategy, Props, Actor}
 import akkaSamples.SupervisionExample.{NumberDivision, PrintMessage, SignalChildren}
 
+// Docs: https://doc.akka.io/docs/akka/current/scala/guide/tutorial_1.html#the-actor-lifecycle
+// Youtube: https://www.youtube.com/watch?v=ZNaeMf7X6xU
+
 /**
  * Created by rohanp on 10/8/17.
  */
