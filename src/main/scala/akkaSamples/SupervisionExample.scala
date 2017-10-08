@@ -38,13 +38,11 @@ object SupervisionExample extends App {
   }
 
   class ChildActor extends Actor {
-
     def receive = {
       case  PrintMessage(n) => println(n +" "+self)
       case NumberDivision(n,d) => println(n/d)
       case BadStuff => throw new RuntimeException("Badstuff happend.....")
     }
-
   }
 
   val system = ActorSystem("superVisionActor")
