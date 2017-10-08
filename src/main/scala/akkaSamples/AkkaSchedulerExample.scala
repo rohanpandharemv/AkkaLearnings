@@ -15,7 +15,6 @@ object AkkaSchedulerExample extends  App {
           number += 1
           println(number)
       }
-
   }
 
   val system = ActorSystem("SchedulerSystem")
