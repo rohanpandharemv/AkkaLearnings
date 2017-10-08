@@ -21,9 +21,9 @@ object AkkaSchedulerExample extends  App {
   val actor = system.actorOf(Props[ScheduleActor],"actor")
   implicit val ec = system.dispatcher
 
-  //actor ! Count
+  actor ! Count
 
-  //system.scheduler.scheduleOnce(1.second)(actor ! Count)
+  system.scheduler.scheduleOnce(1.second)(actor ! Count)
   val can = system.scheduler.schedule(0.second,100.millis,actor, Count)
 
   Thread.sleep(2000)
